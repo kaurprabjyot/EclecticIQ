@@ -1,0 +1,26 @@
+{  
+  "name" : {
+    "manInTheMiddle": "Man in the Middle",
+    "passwordAttack": "Password attack",
+    "phishing": "Phishing",
+    "sessionHijack": "Session hijack",
+    "sqlInjection": "SQL Injection",
+    "xss": "XSS"
+
+  },
+
+  "sortData" : {
+    "name": "Name",
+    "numberOfCases": "Number of cases",
+    "complexity": "Complexity"
+  },
+
+  "locators" : {
+    "row": ".table-row",
+    "colName" : ".table-data.data-name",
+    "colNumberOfCases" : ".table-data.data-cases",
+    "colComplexity" : ".table-data.data-complexity"
+  }
+}
+
+
