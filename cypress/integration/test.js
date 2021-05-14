@@ -22,7 +22,7 @@ describe('Filtering and sorting data', function() {
         cy.get(locators.colNumberOfCases).eq(4).should('have.text', '25.12M')
         cy.get(locators.colNumberOfCases).eq(5).should('have.text', '32.85M')
     })
-    it.only('Should filter data ignoring case-sensitivity', function()  {
+    it('Should filter data ignoring case-sensitivity', function()  {
         cy.navigateToApplication()
         filter('man')
         sortDataOption(sortData.name)
